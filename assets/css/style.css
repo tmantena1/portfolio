@@ -10,7 +10,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
+
+h3{
+  color: aliceblue;
+}
  
+.card-description{
+  color: goldenrod;
+}
 .wrapper {
   display: table;
   height: 100%;
@@ -50,6 +57,27 @@ h1.heading {
     margin: 0 0 0.3em;
   }
 } 
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a{
+  color: inherit;
+}
+article{
+  color: aliceblue;
+  font-size: 12px;
+}
 .card {
   display: block; 
     margin-bottom: 20px;
@@ -141,18 +169,6 @@ img {
   width: 100%;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/bg-masthead.jpg");
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 /*CONTACT LIST STYLING*/ 
 .contact-list li {
@@ -168,14 +184,13 @@ img {
   background-color: #0072bb;
 }
 
-/* body {
-  background-color: #d9dcd6;
+body{
+  background-image: linear-gradient(darkblue, purple, gray); 
+}
+html {
+  background-image: linear-gradient( gray, purple);
 }
 
-html {
-  background-color: #d9dcd6;
-} */
-/* .bg-light {
-  background-color: #f8f9fa!important; 
-  background-color: rgb(89, 134, 194)!important;
-} */
+p{
+  color: aliceblue;
+}
